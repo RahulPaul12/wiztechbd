@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col{
+    width: 100%;
+    float: left;
+    display: block;
+    height: 100%;
+    
+
+}
+.col .f{
+    text-align: center;
+    padding: 0 1%;
+    border-right: 2px solid black;
+}
+.fw{
+    border-left: 2px solid black;
+    margin-left: 1%;
+    margin-right: 0 !important;
+    color: rgb(5, 237, 160);
+}
+.fb{
+    color: rgb(53, 100, 240);
+}
+.navbar-brand{
+    margin: 0 0 0 40px;
+}
+
+.cover , main-nav, .top-nav , .see{
+     margin: 0 40px;
+}
+footer{
+    background-image: url("./images/Rectangle\ 4482.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.icon i{
+    margin: 0 3%;
+    color: #F37048;
+    font-size:30px;
+}
+.customHr{
+    padding-bottom:5px;
+     border-bottom:solid 2px black;
+     display:inline-block;
+     vertical-align:top;
+     
+   }
+   .card{ 
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)!important;
+}
+.card-img-top img{
+    width: 100%;
+}
+.card-img-top{
+    position: relative;
+}
+.design{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 3%;
+    right: 88.52%;
+    top: 4.4%;
+    bottom: 89.07%;
+    background-color: rgb(234, 213, 236);
+    z-index: 1;
+    text-align: center;
+    color: rgb(242, 104, 104);
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.book_box {
+    display: inline-block;
+    width: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.cover_section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.category_tag {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    background-image: url("./images/Rectangle 4836.png");
+    background-size: 100% 100%;
+    padding: 7px 14px 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37048;
+}
+.cover_photo {
+    display: inline-block;
+    width: 100%;
+}
+
+.favorit_icon {
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: #FFFFFF;
+    padding: 7px 9px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.available_status {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #F37048;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    text-align: center;
+    padding: 7px;
+}
+.available_status img {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.available_text{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    word-wrap: break-word;
+}
+
+.book_description_section {
+    display: inline-block;
+    width: 100%;
+}
+
+.book_description_section a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.author_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0px;
+}
+.star {
+    display: inline-block;
+    width: 100%;
+}
+
+.price_section {
+    display: inline-block;
+    width: 100%;
+}
+.price_section p {
+    margin-bottom: 0px;
+}
+.discount_price {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.original_price {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #000000;
+}
+.cart_btn_section {
+    display: inline-block;
+    float: right;
+}
+.cart_btn {
+    border: none;
+    background: #000000;
+    border-radius: 4px;
+    padding: 3px 10px 8px;
+}
+.download_btn {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 3px 10px 8px;
+}
+.circle p{
+    font-size: 80%;
+    word-wrap: break-word;
+    line-height: 5px;
+}
+.card-title{
+    font-family: Poppins;
+    
+}
+.vector{
+    margin-left: 150px;
+    margin-right: 5px;
+}
+.vector{
+    width: 40px;
+    height: 38px;
+    background-color: black;
+}
+.vector-1{
+    width: 50%;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.vector-1 img , .vector img{
+    padding: 8px;
+}
+.fa-star, .fa-star-half-o{
+   color:#FFA873;
+}
+.tk{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: #F37048;
+}
+.w-60{
+    width: 70% !important;
+}
+.bg-secondary{
+    background-color: #eae9e8 !important;
+    
+}
