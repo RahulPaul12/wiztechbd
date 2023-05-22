@@ -1,0 +1,118 @@
+.navbar-nav > .nav-item > .nav-link:hover {
+    color: #fac564;
+  }
+
+  .text-content{
+    font-family: 'Nunito', cursive;
+    font-family: 'Nunito', sans-serif;
+    color: white!important;
+  }
+  .text-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+.banner{
+  height: 100vh;
+  background-image: url('./images/bg_3.jpg');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  
+}
+.banner::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(12, 11, 11, 0.696);
+  z-index: -1;
+}
+.banner .content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-content{
+  width: 50%;
+  height: 50%;
+}
+.img-content .sideimg{
+  width: 80%;
+  height: 80%;
+  
+  
+}
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.services-section{
+  background-image: url('./images/food.png');
+}
+
+.cardd:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  background-color: white !important;
+  color: rgb(255, 196, 0);
+}
+.about-h1{
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: rgb(255, 196, 0);
+}
+.pizza-list{
+  color: white;
+}
+.parallax{
+    /* The image used */
+    background-image: url('./images/bg_4.jpg');
+  
+    /* Set a specific height */
+    height: 100vw;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pizza-price{
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+.pizza-price img{
+  width: 100%;
+  height: 100%;
+}
